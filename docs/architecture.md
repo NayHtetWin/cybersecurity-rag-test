@@ -17,7 +17,7 @@ Integration: It offers seamless local inference via Ollama.
 
 ## Pipeline Overview
 
-1. **Ingestion**: PDFs loaded via PyPDFLoader, split into 1000-char chunks with 200-char overlap
+1. **Ingestion**: PDFs loaded via PyPDFLoader, split into 1000-char chunks with 200-char overlap. This size was chosen to ensure complete security definitions are captured without losing context at the boundaries for most cases.
 2. **Embedding**: sentence-transformers/all-MiniLM-L6-v2 (lightweight, runs locally)
 3. **Storage**: ChromaDB (persistent vector database)
 4. **Retrieval**: Top-5 similarity search
