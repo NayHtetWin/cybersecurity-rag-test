@@ -1,0 +1,18 @@
+# ChromaDB database (regeneratable from dataset)
+chroma_db/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Refence files
+1_ASSIGNMENT.md
+2_EVALUATION.md
+3_REFERENCE.md
