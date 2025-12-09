@@ -4,6 +4,7 @@ chroma_db/
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
 
 # Virtual environments
 venv/
