@@ -6,9 +6,12 @@ Efficiency: It runs effectively on local hardware without requiring high-end GPU
 
 Instruction Following: It outperforms models like Llama 2 and Mistral in adhering to strict "context-only" prompting.
 
+Multilingual Capability: The "Thailand Web Security Standard" is in Thai. Qwen 2.5 is excellent at Thai compared to Llama 3.
+
 Simplicity: The base model works well out-of-the-box. Avoided fine-tuning to reduce complexity, development time risks.
 
 Integration: It offers seamless local inference via Ollama.
+
 
 ## System Diagram
 
